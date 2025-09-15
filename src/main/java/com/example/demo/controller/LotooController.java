@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/animal")
-public class AnimalController {
+public class LotooController {
 
     @GetMapping("/list")
     public String home() {
